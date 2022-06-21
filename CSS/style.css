@@ -1,0 +1,469 @@
+/*------------Home------------*/
+@font-face
+{
+	src: url(../Font/LibreBaskerville-Bold.ttf);
+	font-family: biker;
+}
+.navbar-brand img
+{
+	width: 106px;
+}
+.texas-bg-wood
+{
+	background-image: url("../IMG/bgwood.jpg");
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-bottom: 65px;
+}
+.menu-nav ul
+{
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+}
+.menu-nav ul li
+{
+	padding: 0 25px;
+	margin: 70px 0 50px 0;
+}
+.menu-nav ul li a
+{
+	text-decoration: none;
+	border-bottom: 1px solid rgb(248, 176, 45);
+	color: #9a3324;
+    font-size: 15px;
+   	margin-left: 21px;
+    margin-right: 21px;
+    font-family: biker;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 30px;
+    font-weight: 400;
+}
+.menu img
+{
+	width: 250px;
+}
+.menu button
+{
+	border-radius: 6px;
+	font-family: biker;
+}
+.menu button:hover
+{
+	background-color: #f3ae1b;
+}
+button
+{
+	width: 100%;
+	border-radius: 6px;
+	height: 55px;
+	font-family: biker;
+	border: none;
+	background-color: #9a3324;
+	color: white;
+	cursor: pointer;
+}
+button a
+{
+	color: white;
+}
+button:hover
+{
+	background-color: rgb(248, 176, 45);
+}
+button a:hover
+{
+	color: white;
+}
+.StoryImg img {
+    width: 1095px!important;
+    height: 450px!important;
+    object-fit: cover;
+}
+.texas-about-dark .bg-txt {
+    opacity: 1 !important;
+    /* background: #252525 !important; */
+    background-image: url("../IMG/overlayDark.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right; */
+    /* background-position: 96% center; */
+    background-position: 100% center;
+}
+.discovery img
+{
+	height: auto;
+	width: 100%;
+}
+
+/*------------Products------------*/
+@font-face
+{
+	src: url("../Font/Biker From Hell.otf");
+	font-family: biker;
+}
+.bg-menu
+{
+	background-color: #2c2925;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link
+{
+	padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: #f8b02d;
+    font-size: 23px;
+    font-family: biker;
+    font-weight: 400;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover
+{
+	color: #dc3545;
+}
+.navbar-dark .fa-earth
+{
+	color: white;
+}
+/* Content */
+.product-content h4
+{
+	text-align: center;
+	padding-top: 190px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: tablet-gothic-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+}
+.product-content p
+{
+	color: #a39382;
+	margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 15px;
+}
+.product-content
+{
+	margin-bottom: 80px;
+}
+.product
+{
+	margin-bottom: 80px;
+}
+/* Back-Button */
+.btn.btn-primary
+{
+	background-repeat: no-repeat;
+    background-position: center;
+    background: #f8b02d;
+    border: none;
+    transition: .3s all ease-in-out;
+    padding: 0.5rem 1rem !important;
+    font-family: biker;
+    color: #2d2926 !important;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -80px;
+}
+.btn
+{
+	border-radius: 0.5rem;
+	font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+}
+/* Footer */
+.footer-bg
+{
+	background-color: #2d2926;
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	background-size: cover;
+}
+.info
+{
+	border-bottom: #525251 solid 1px;
+	padding-bottom: 22px;
+}
+.contact h6
+{
+	color: white;
+	font-family: biker;
+	text-transform: uppercase;
+	margin: 12px 0;
+}
+.contact
+{
+	padding-top: 20px;
+}
+.contact a
+{
+	color: #a39382;
+	font-size: 12px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.contact a:hover
+{
+	color: white;
+}
+.vietnam
+{
+	padding-top: 20px;
+}
+.vietnam h6
+{
+	color: white;
+	font-family: biker;
+	text-transform: uppercase;
+	margin: 12px 0;
+}
+.vietnam span
+{
+	color: #f8b02d;
+	font-family: biker;
+	text-transform: uppercase;
+	margin: 12px 0;
+}
+.copyright p
+{
+	color: white;
+	margin: 15px 0 0 0;
+	padding-bottom: 30px;
+	font-size: 10px;
+}
+/*------------Story------------*/
+/* Story carousel */
+.story-bg
+{
+	background-image: url("../IMG/story.jpg");
+	height: 400px;
+	background-size: cover;
+}
+.story-title h1
+{
+	text-align: center;
+	color: white;
+	padding-top: 150px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: biker;
+}
+/* Story content */
+.story-brand
+{
+    background: url("../IMG/stamp3.png") #2c2925;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 18%;
+    height: 100%;
+}
+.story-content h3
+{
+	color: #f8b02d;
+	font-family: biker;
+	text-transform: uppercase;
+}
+.story-content p
+{
+	color: white;
+}
+.story-content
+{
+	justify-content: center;
+	margin: 50px 0 40px 0;
+}
+/* Texas legacy and Our values */
+.wood-bg
+{
+	background-image: url("../IMG/bg_4.jpg");
+	height: 100%;
+	background-size: contain;
+}
+.texas-legacy
+{
+	margin-top: 50px;
+}
+.texas-legacy iframe
+{
+	width: 100%;
+}
+.texas-legacy h1
+{
+	font-size: 50px;
+	color: #f8b02d;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.texas-legacy p
+{
+	color: #a39382;
+}
+.our-values h1
+{
+	text-align: center;
+	margin-top: 110px;
+	font-weight: bold;
+	color: #f8b02d;
+	font-size: 60px;
+	position: relative;
+}
+.heading-section
+{
+	z-index: 0;
+    position: relative;
+    margin-top: 100px;
+}
+.heading-section .subheading {
+    font-size: 35px;
+    margin-left: 18px;
+    display: block;
+    margin-bottom: 0;
+    font-family: biker;
+    text-transform: uppercase;
+    color: #9a3324;
+    line-height: 1;
+    margin-bottom: -21px;
+    z-index: 1;
+}
+.heading-section h1, .heading-section h2 {
+    z-index: -1;
+    font-size: 73px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    color: #f8b02d;
+    line-height: 100px !important;
+    padding-top: 0;
+    margin-top: -40px;
+}
+.value-block
+{
+	margin-bottom: 3em;
+}
+.value-block img
+{
+	width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #f8b02d;
+    margin-bottom: 20px;
+}
+.our-value-content
+{
+	justify-content: center;
+}
+.value-block article h3
+{
+	font-family: biker;
+    color: #9a3324;
+    font-size: 20px;
+}
+.value-block article p
+{
+	color: #a39382;
+    text-align: left;
+    font-size: 15px;
+    text-align: center;
+}
+/*------------Foods------------*/
+/* Food list */
+.texas-careers {
+    padding: 50px;
+}
+.food-bg
+{
+	background-image: url("../IMG/bg_4.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+}
+.food-stamp
+{
+	margin-bottom: 40px;
+}
+.mainMenu .food-stamp
+{
+	background: url("../IMG/stamp.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+	width: 100%;
+}
+.foods-list button
+{
+	border-radius: 6px;
+	font-family: biker;
+	font-size: 25px;
+}
+.foods-list button:hover
+{
+	background-color: #f3ae1b;
+}
+.foods-list img
+{
+	height: 250px;
+	object-fit: contain;
+	border-radius: 9px 9px 0px 0px;
+	cursor: pointer;
+	width: 100%;
+}
+.foods-list
+{
+	margin: 15px 0;
+}
+/*------------Foods menu------------*/
+.wrapper ul
+{
+	padding-left: 0;
+}
+.wrapper ul li
+{
+	list-style: none;
+	padding: 15px 0;
+	border-bottom: 2px solid #ebebeb;
+}
+.wrapper ul li a
+{
+	text-decoration: none;
+	color: #9a3324;
+	font-weight: 400;
+}
+.wrapper ul li:hover
+{
+	border-bottom: 1px solid rgb(248, 176, 45);
+}
+.wrapper ul li a:hover
+{
+	color: rgb(248, 176, 45);
+	
+}
+.wrapper
+{
+	margin-top: 20px;
+	height: 100%;
+	font-family: biker;
+}
+.sidebar-logo
+{
+	margin: 20px 0 0 0;
+}
+.sidebar-content h1
+{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 70px;
+	color: rgb(248, 176, 45);
+	text-transform: uppercase;
+}
+
